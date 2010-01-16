@@ -1,1 +1,14 @@
-Free font collection.
+A collection of free fonts. 
+
+Checkout the submodules:
+    git submodule init
+    git submodule update
+
+On ubuntu, copy the new font folder to system font folder:
+   cp -R programmer_fonts/droid-fonts/ ~/.fonts/truetype/ (user)
+   sudo cp -R programmer_fonts/droid-fonts/ /usr/share/fonts/truetype/ (system)
+   sudo fc-cache -f -v
+
+On OSX:
+   ~/Library/Fonts/ (user) 
+   /Library/Fonts/ (system) 
